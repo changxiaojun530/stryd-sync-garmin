@@ -18,6 +18,9 @@ env:
   
 
 jobs:
+#禁用整个工作流代码运行
+if: false #This disable the entire workflow
+
   build:
 
     runs-on: ubuntu-20.04
